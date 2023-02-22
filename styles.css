@@ -65,19 +65,23 @@ nav a {
 
 /* About section styles */
 .about {
-    background-color: #fff;
+    background-image:"coffee-beans.jpeg";
     padding: 50px;
     text-align: center;
-}
-.about h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-.about p {
-    font-size: 18px;
-    line-height: 1.5;
-}
+    position: relative;
+  }
 
+.about h2, .about p {
+    position: relative;
+    z-index: 1;
+  }
+  
+.about--image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
 /* Menu section styles */
 .menu {
     background-color: #eee;
