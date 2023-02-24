@@ -94,6 +94,7 @@ nav a {
 .about h2, .about p {
     position: relative;
     z-index: 1;
+    color:#fff;
   }
   
 .about--image {
