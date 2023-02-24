@@ -131,3 +131,37 @@ nav a {
 .menu li span:last-child {
     font-weight: bold;
 }
+
+/* Quiz */
+
+.quiz {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+.quiz h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color:#fff;
+  }
+  
+.quiz p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+#start-quiz {
+    background-color: #FFC0CB;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+#start-quiz:hover {
+    background-color: #FF69B4;
+  }
+  
