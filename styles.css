@@ -176,3 +176,46 @@ nav a {
     background-color: #FF69B4;
   }
   
+  /* Quiz-style list */
+.quiz-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+/* Quiz-style answer button */
+.quiz-answer {
+    background-color: #ffcb05;
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    transition: all 0.2s;
+  }
+  
+.quiz-answer:hover {
+    background-color: #f5b903;
+    color: #ffffff;
+  }
+  
+/* Quiz results */
+#quiz-results {
+    display: none;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+#quiz-results p {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 50px;
+    background-color: #ffcb05;
+    border-radius: 5px;
+  }
+  
