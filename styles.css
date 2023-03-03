@@ -185,26 +185,31 @@ nav a {
   
 /* Quiz-style answer button */
 .quiz-answer {
-    background-color: #ffcb05;
-    border: none;
-    border-radius: 4px;
-    color: #000000;
-    cursor: pointer;
-    font-size: 1.2rem;
-    margin: 10px 0;
-    padding: 10px;
-    text-align: center;
-    width: 100%;
-    transition: all 0.2s ease-out;
-    display: flex;
-    justify-content: center;
-  }
-  
+  display: inline-block;
+  width: 45%;
+  padding: 20px;
+  background-color: #f0f0f0;
+  color: #000;
+  font-size: 1.2rem;
+  text-align: center;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 .quiz-answer:hover {
-    background-color: #f5b903;
-    color: #ffffff;
-  }
-  
+  background-color: #ffcc00;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.quiz-answer.selected {
+  background-color: #ffcc00;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
 /* Quiz results */
 #quiz-results {
     display: none;
